@@ -1,14 +1,14 @@
 {
-  "name": "simple-workflow",
+  "name": "nutrolog",
   "version": "0.0.1",
-  "description": "Simple Workflow",
+  "description": "Nutrolog",
   "main": "main.js",
   "scripts": {
     "dev": "gulp watch",
     "build": "gulp --production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Wellington Barreto <zeindelf@hotmail.com>",
+  "author": "Rodrigo Araujo <rodrigo.araujo@agenciaeconverse.com.br>",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.14.0",
@@ -26,7 +26,7 @@
     "gulp-notify": "^2.2.0",
     "gulp-plumber": "^1.1.0",
     "gulp-pug": "^3.0.4",
-    "gulp-sass": "^2.3.2",
+    "gulp-sass": "^3.0.0",
     "gulp-uglify": "^2.0.0",
     "merge-stream": "^1.0.0",
     "run-sequence": "^1.2.2",
@@ -37,6 +37,7 @@
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
     "jquery": "^2.2.0",
-    "lodash": "^4.15.0"
+    "lodash": "^4.15.0",
+    "npm": "^6.4.1"
   }
 }

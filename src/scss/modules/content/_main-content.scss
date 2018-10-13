@@ -1,5 +1,171 @@
-.main-content {
-    &__content {
-        padding: 1em 0;
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+
+.e-general {
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px 20px;
+        font-family: 'Oswald', sans-serif;
+        &--revendedor {
+            display: flex;
+            width: 200px;
+            flex-wrap: wrap;
+            &-image {
+                margin-top: 20px;
+                width: 40px;
+            }
+            &-title {
+                display: block;
+                margin-left: 10px;
+                margin-top: 20px;
+                font-weight: 700
+            }
+            &-text {
+                display: block;
+                margin-left: 50px;
+                margin-top: -25px;
+            }
+        }
+        &--logo {
+            img {
+                width: 90px;
+                margin-top: 20px;
+            }
+        }
+        &--telefone {
+            display: flex;
+            width: 150px;
+            flex-wrap: wrap;
+            &-image {
+                margin-top: 20px;
+                width: 40px;
+                height: auto;
+            }
+            &-title {
+                display: block;
+                margin-left: 10px;
+                margin-top: 20px;
+                font-weight: 700
+            }
+            &-text {
+                display: block;
+                margin-left: 50px;
+                margin-top: -25px;
+            }
+        }
+    }
+    &__main {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Oswald', sans-serif;
+        &--banner {
+            width: 100%;
+            height: auto;
+            position: relative;
+            img {
+                width: 100%;
+                height: auto;
+                display: inline-block;
+            }
+        }
+        &--text {
+            position: absolute;
+            right: 300px;
+            top: 120px;
+            span {
+                font-size: 35px;
+                font-weight: 700;
+                color: #fff;
+                letter-spacing: 1px;
+            }
+        }
+        &--form {
+            position: absolute;
+            right: 100px;
+            display: flex;
+            flex-direction: column;
+            top: 180px;
+            select {
+                width: 400px;
+                height: 30px;
+                margin: 0 0 10px;
+                padding-left: 10px;
+                font-family: 'Oswald', sans-serif; 
+                &:placeholder {
+                    font-family: 'Oswald', sans-serif; 
+                }
+            }
+            input {
+                height: 30px;
+                margin: 0 0 10px;
+                padding-left: 10px;
+                font-family: 'Oswald', sans-serif; 
+                &:placeholder {
+                    font-family: 'Oswald', sans-serif; 
+                }
+                &.button {
+                    width: 200px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-end;
+                    text-align: right;
+                    position: relative;
+                    left: 50%;
+                    margin: 0;
+                    padding: 0;
+                    text-transform: uppercase;
+                    background: #1f1f1f;
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Oswald', sans-serif;
+        justify-content: space-around;
+        text-align: center;
+        &--title {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 20px 0;
+            span {
+                font-weight: 700;
+                font-size: 35px;
+                text-transform: uppercase;
+            }
+        }
+        &--product {
+            &-image {
+                &:after {
+                    content: '';
+                    left: 100%;
+                    position: relative;
+                    background: url(./../../../images/next.png) no-repeat center;
+                    width: 40px;
+                    height: 70px;
+                    display: inline-block;
+                    background-size: 50px;
+                }
+            }
+        }
+        &--contact {
+            &-image {
+                &:after {
+                    content: '';
+                    left: 100%;
+                    position: relative;
+                    background: url(./../../../images/next.png) no-repeat center;
+                    width: 40px;
+                    height: 70px;
+                    display: inline-block;
+                    background-size: 50px;
+                    top: 15px;
+                }
+            }
+        }
     }
 }
