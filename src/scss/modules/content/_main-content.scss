@@ -127,6 +127,9 @@
         font-family: 'Oswald', sans-serif;
         justify-content: space-around;
         text-align: center;
+        span {
+            font-size: 22px;
+        }
         &--title {
             width: 100%;
             display: flex;
@@ -139,7 +142,15 @@
             }
         }
         &--product {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; 
             &-image {
+                img {
+                    position: relative;
+                    right: -20px;
+                }
                 &:after {
                     content: '';
                     left: 100%;
@@ -153,19 +164,227 @@
             }
         }
         &--contact {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             &-image {
+                right: -20px;
+                position: relative;
                 &:after {
                     content: '';
-                    left: 100%;
+                    left: 50%;
                     position: relative;
                     background: url(./../../../images/next.png) no-repeat center;
                     width: 40px;
                     height: 70px;
                     display: inline-block;
                     background-size: 50px;
-                    top: 15px;
+                    top: 23px;
                 }
             }
+            &-text {
+                width: 150px;
+                text-align: center;
+            }
+        }
+        &--submit {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            left: -50px;
+            position: relative;
+            &-text {
+                width: 170px;
+                text-align: center;
+            }
+        }
+    }
+    &__banners {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        &-top {
+            display: flex;
+            position: relative;
+            height: 210px;
+            &--massa {
+                cursor: pointer;
+                position: relative;
+                &:hover {
+                    .e-general__banners-top--massa-image {
+                        display: none;
+                    }
+                    .e-general__banners-top--massa-image-hover {
+                        display: inline-block;
+                        position: relative;
+                        z-index: 9  ;
+                    }
+                }
+                &-image {
+                    &-hover {
+                        display: none;
+                    }
+                }
+            }
+            &--diet {
+                cursor: pointer;
+                position: relative;
+                &:hover {
+                    .e-general__banners-top--diet-image {
+                        display: none;
+                    }
+                    .e-general__banners-top--diet-image-hover {
+                        display: inline-block;
+                        position: relative;
+                        z-index: 9  ;
+                    }
+                }
+                &-image {
+                    &-hover {
+                        display: none;
+                    }
+                }
+            }
+            &--whey {
+                cursor: pointer;
+                position: relative;
+                &:hover {
+                    .e-general__banners-top--whey-image {
+                        display: none;
+                    }
+                    .e-general__banners-top--whey-image-hover {
+                        display: inline-block;
+                        position: relative;
+                        z-index: 9  ;
+                    }
+                }
+                &-image {
+                    &-hover {
+                        display: none;
+                    }
+                }
+            }
+            &--energy {
+                cursor: pointer;
+                position: relative;
+                &:hover {
+                    .e-general__banners-top--energy-image {
+                        display: none;
+                    }
+                    .e-general__banners-top--energy-image-hover {
+                        display: inline-block;
+                        position: relative;
+                        z-index: 9  ;
+                    }
+                }
+                &-image {
+                    &-hover {
+                        display: none;
+                    }
+                }
+            }
+        }
+        &-bottom {
+            display: flex;
+            position: relative;
+            top: 0;
+            height: 210px;
+            &--peso {
+                cursor: pointer;
+                position: relative;
+                &:hover {
+                    .e-general__banners-bottom--peso-image {
+                        display: none;
+                    }
+                    .e-general__banners-bottom--peso-image-hover {
+                        display: inline-block;
+                        position: relative;
+                        z-index: 9  ;
+                    }
+                }
+                &-image {
+                    &-hover {
+                        display: none;
+                    }
+                }
+            }
+            &--refeicao {
+                cursor: pointer;
+                position: relative;
+                &:hover {
+                    .e-general__banners-bottom--refeicao-image {
+                        display: none;
+                    }
+                    .e-general__banners-bottom--refeicao-image-hover {
+                        display: inline-block;
+                        position: relative;
+                        z-index: 9  ;
+                    }
+                }
+                &-image {
+                    &-hover {
+                        display: none;
+                    }
+                }
+            }
+            &--bem {
+                cursor: pointer;
+                position: relative;
+                &:hover {
+                    .e-general__banners-bottom--bem-image {
+                        display: none;
+                    }
+                    .e-general__banners-bottom--bem-image-hover {
+                        display: inline-block;
+                        position: relative;
+                        z-index: 9  ;
+                    }
+                }
+                &-image {
+                    &-hover {
+                        display: none;
+                    }
+                }
+            }
+            &--massa {
+                cursor: pointer;
+                position: relative;
+                &:hover {
+                    .e-general__banners-bottom--massa-image {
+                        display: none;
+                    }
+                    .e-general__banners-bottom--massa-image-hover {
+                        display: inline-block;
+                        position: relative;
+                        z-index: 9  ;
+                    }
+                }
+                &-image {
+                    &-hover {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    &__antidoping {
+        &-banner {
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    &__baseline {
+        display: flex;
+        width: 100%;
+        font-family: 'Oswald', sans-serif;
+        &--depositions {
+            background: #1f1f1f;
+            width: 35%;
+            color: #eaeaea;
         }
     }
 }
