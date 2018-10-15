@@ -156,7 +156,7 @@
                     content: '';
                     left: 100%;
                     position: relative;
-                    background: url(./../../../images/next.png) no-repeat center;
+                    background: url(/images/next.png) no-repeat center;
                     width: 40px;
                     height: 70px;
                     display: inline-block;
@@ -176,7 +176,7 @@
                     content: '';
                     left: 50%;
                     position: relative;
-                    background: url(./../../../images/next.png) no-repeat center;
+                    background: url(/images/next.png) no-repeat center;
                     width: 40px;
                     height: 70px;
                     display: inline-block;
@@ -371,6 +371,7 @@
                         z-index: 9;
                         width: 100%;
                         height: auto;
+                        bottom: 100%;
                         img {
                             width: 100%;
                             height: auto;
@@ -405,6 +406,7 @@
                         z-index: 9;
                         width: 100%;
                         height: auto;
+                        bottom: 100%;
                         img {
                             width: 100%;
                             height: auto;
@@ -439,6 +441,7 @@
                         z-index: 9;
                         width: 100%;
                         height: auto;
+                        bottom: 100%;
                         img {
                             width: 100%;
                             height: auto;
@@ -473,6 +476,7 @@
                         z-index: 9;
                         width: 100%;
                         height: auto;
+                        bottom: 100%;
                         img {
                             width: 100%;
                             height: auto;
@@ -495,7 +499,13 @@
         }
     }
     &__antidoping {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         &-banner {
+            width: 100%;
+            height: auto;
             img {
                 width: 100%;
                 height: auto;
@@ -521,10 +531,9 @@
                 flex-wrap: wrap;
                 &-video1 {
                     width: 50%;
-                    img {
-                        width: 80%;
-                            text-align: center;
-                            margin-left: 10%;
+                    padding-left: 10px;
+                    iframe {
+                        height: 100%;
                     }
                 }
                 &-text {
@@ -701,8 +710,6 @@
         height: 100px;
         align-items: center;
         justify-content: center;
-        top: -25px;
-        position: relative;
         &--title {
             font-family: 'Oswald', sans-serif;
             font-size: 25px;
@@ -731,8 +738,6 @@
         background: #1f1f1f;
         color: #fff;
         font-family: 'Oswald', sans-serif;
-        top: -25px;
-        position: relative;
         height: 50px;
         display: flex;
         align-items: center;
