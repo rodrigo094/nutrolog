@@ -5,6 +5,9 @@ body {
     text-transform: uppercase;
     margin: 0 auto;
     .e-general {
+        @media (max-width: 1024px) {
+            overflow-x: hidden;
+        }
         &__header {
             display: flex;
             justify-content: space-between;
