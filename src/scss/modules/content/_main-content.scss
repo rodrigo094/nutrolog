@@ -289,15 +289,21 @@ body {
                     transition: all 0.5s ease;
                     &:hover {
                         .e-general__banners-top--massa-image {
-                            display: none;
-                            transition: all 0.5s ease;
+                            opacity: 0;
+                            height: 0;
+                            padding: 0 8px;
+                            overflow: hidden;
+                            transition: all .3s ease .3s;
                         }
                         .e-general__banners-top--massa-image-hover {
-                            display: inline-block;
                             position: relative;
-                            z-index: 9;
+                            opacity: 1;
                             width: 100%;
                             height: auto;
+                            display: block;
+                            z-index: 9;
+                            padding: 0;
+                            top: 0px;
                             img {
                                 width: 100%;
                                 height: auto;
@@ -316,7 +322,11 @@ body {
                             height: auto;
                         }
                         &-hover {
-                            display: none;
+                            opacity: 0;
+                            height: 0;
+                            padding: 0 8px;
+                            overflow: hidden;
+                            transition: all .5s ease;
                             @media (max-width: 1024px) {
                                 display: inline-block;
                             }
@@ -330,14 +340,21 @@ body {
                     height: auto;
                     &:hover {
                         .e-general__banners-top--diet-image {
-                            display: none;
+                            opacity: 0;
+                            height: 0;
+                            padding: 0 8px;
+                            overflow: hidden;
+                            transition: all .3s ease .3s;
                         }
                         .e-general__banners-top--diet-image-hover {
-                            display: inline-block;
                             position: relative;
-                            z-index: 9;
+                            opacity: 1;
                             width: 100%;
                             height: auto;
+                            display: block;
+                            z-index: 9;
+                            padding: 0;
+                            top: 0px;
                             img {
                                 width: 100%;
                                 height: auto;
@@ -356,7 +373,11 @@ body {
                             height: auto;
                         }
                         &-hover {
-                            display: none;
+                            opacity: 0;
+                            height: 0;
+                            padding: 0 8px;
+                            overflow: hidden;
+                            transition: all .5s ease;
                             @media (max-width: 1024px) {
                                 display: inline-block;
                             }
@@ -370,14 +391,21 @@ body {
                     height: auto;
                     &:hover {
                         .e-general__banners-top--snack-image {
-                            display: none;
+                            opacity: 0;
+                            height: 0;
+                            padding: 0 8px;
+                            overflow: hidden;
+                            transition: all .3s ease .3s;
                         }
                         .e-general__banners-top--snack-image-hover {
-                            display: inline-block;
                             position: relative;
-                            z-index: 9;
+                            opacity: 1;
                             width: 100%;
                             height: auto;
+                            display: block;
+                            z-index: 9;
+                            padding: 0;
+                            top: 0px;
                             img {
                                 width: 100%;
                                 height: auto;
@@ -396,7 +424,11 @@ body {
                             height: auto;
                         }
                         &-hover {
-                            display: none;
+                            opacity: 0;
+                            height: 0;
+                            padding: 0 8px;
+                            overflow: hidden;
+                            transition: all .5s ease;
                             @media (max-width: 1024px) {
                                 display: inline-block;
                             }
@@ -410,14 +442,21 @@ body {
                     height: auto;
                     &:hover {
                         .e-general__banners-top--energy-image {
-                            display: none;
+                            opacity: 0;
+                            height: 0;
+                            padding: 0 8px;
+                            overflow: hidden;
+                            transition: all .3s ease .3s;
                         }
                         .e-general__banners-top--energy-image-hover {
-                            display: inline-block;
                             position: relative;
-                            z-index: 9;
+                            opacity: 1;
                             width: 100%;
                             height: auto;
+                            display: block;
+                            z-index: 9;
+                            padding: 0;
+                            top: 0px;
                             img {
                                 width: 100%;
                                 height: auto;
@@ -436,7 +475,11 @@ body {
                             height: auto;
                         }
                         &-hover {
-                            display: none;
+                            opacity: 0;
+                            height: 0;
+                            padding: 0 8px;
+                            overflow: hidden;
+                            transition: all .5s ease;
                             @media (max-width: 1024px) {
                                 display: inline-block;
                             }
@@ -457,14 +500,20 @@ body {
                     height: auto;
                     &:hover {
                         .e-general__banners-bottom--peso-image {
-                            display: none;
+                            opacity: 0;
+                            height: 0;
+                            padding: 0 8px;
+                            overflow: hidden;
+                            transition: all .3s ease .3s;
                         }
                         .e-general__banners-bottom--peso-image-hover {
-                            display: inline-block;
                             position: relative;
-                            z-index: 9;
+                            opacity: 1;
                             width: 100%;
                             height: auto;
+                            display: block;
+                            z-index: 9;
+                            padding: 0;
                             bottom: 100%;
                             img {
                                 width: 100%;
@@ -484,7 +533,11 @@ body {
                             height: auto;
                         }
                         &-hover {
-                            display: none;
+                            opacity: 0;
+                            height: 0;
+                            padding: 0 8px;
+                            overflow: hidden;
+                            transition: all .5s ease;
                             @media (max-width: 1024px) {
                                 display: inline-block;
                             }
@@ -498,14 +551,20 @@ body {
                     height: auto;
                     &:hover {
                         .e-general__banners-bottom--refeicao-image {
-                            display: none;
+                            opacity: 0;
+                            height: 0;
+                            padding: 0 8px;
+                            overflow: hidden;
+                            transition: all .3s ease .3s;
                         }
                         .e-general__banners-bottom--refeicao-image-hover {
-                            display: inline-block;
                             position: relative;
-                            z-index: 9;
+                            opacity: 1;
                             width: 100%;
                             height: auto;
+                            display: block;
+                            z-index: 9;
+                            padding: 0;
                             bottom: 100%;
                             img {
                                 width: 100%;
@@ -525,7 +584,11 @@ body {
                             height: auto;
                         }
                         &-hover {
-                            display: none;
+                            opacity: 0;
+                            height: 0;
+                            padding: 0 8px;
+                            overflow: hidden;
+                            transition: all .5s ease;
                             @media (max-width: 1024px) {
                                 display: inline-block;
                             }
@@ -539,14 +602,20 @@ body {
                     height: auto;
                     &:hover {
                         .e-general__banners-bottom--bcaa-image {
-                            display: none;
+                            opacity: 0;
+                            height: 0;
+                            padding: 0 8px;
+                            overflow: hidden;
+                            transition: all .3s ease .3s;
                         }
                         .e-general__banners-bottom--bcaa-image-hover {
-                            display: inline-block;
                             position: relative;
-                            z-index: 9;
+                            opacity: 1;
                             width: 100%;
                             height: auto;
+                            display: block;
+                            z-index: 9;
+                            padding: 0;
                             bottom: 100%;
                             img {
                                 width: 100%;
@@ -566,7 +635,11 @@ body {
                             height: auto;
                         }
                         &-hover {
-                            display: none;
+                            opacity: 0;
+                            height: 0;
+                            padding: 0 8px;
+                            overflow: hidden;
+                            transition: all .5s ease;
                             @media (max-width: 1024px) {
                                 display: inline-block;
                             }
@@ -580,14 +653,20 @@ body {
                     height: auto;
                     &:hover {
                         .e-general__banners-bottom--isolate-image {
-                            display: none;
+                            opacity: 0;
+                            height: 0;
+                            padding: 0 8px;
+                            overflow: hidden;
+                            transition: all .3s ease .3s;
                         }
                         .e-general__banners-bottom--isolate-image-hover {
-                            display: inline-block;
                             position: relative;
-                            z-index: 9;
+                            opacity: 1;
                             width: 100%;
                             height: auto;
+                            display: block;
+                            z-index: 9;
+                            padding: 0;
                             bottom: 100%;
                             img {
                                 width: 100%;
@@ -607,7 +686,11 @@ body {
                             height: auto;
                         }
                         &-hover {
-                            display: none;
+                            opacity: 0;
+                            height: 0;
+                            padding: 0 8px;
+                            overflow: hidden;
+                            transition: all .5s ease;
                             @media (max-width: 1024px) {
                                 display: inline-block;
                             }
