@@ -166,6 +166,8 @@ body {
                     margin: 0 0 10px;
                     padding-left: 10px;
                     font-family: 'Oswald', sans-serif;
+                    -webkit-appearance: none;
+                    border-radius: 0;
                     @media (max-width: 768px) {
                         width: 250px;
                     }
@@ -771,9 +773,6 @@ body {
                             align-items: center;
                             margin: 0 50px;
                             padding: 20px;
-                            @media (max-width: 1024px) {
-                                display: none;
-                            }
                             a {
                                 background: #d54b17;
                                 color: #fff;
@@ -816,6 +815,8 @@ body {
                                 width: 100%;
                                 text-transform: uppercase;
                                 font-family: 'Oswald', sans-serif;
+                                -webkit-appearance: none;
+	                            border-radius: 0;
                                 &.button {
                                     width: 50%;
                                     background: #000;
@@ -1210,6 +1211,8 @@ body {
                     padding: 10px;
                     font-family: 'Oswald', sans-serif;
                     margin: 0 10px;
+                    -webkit-appearance: none;
+                    border-radius: 0;
                     @media (max-width: 768px) {
                         width: 80%;
                         margin: 10px 0;

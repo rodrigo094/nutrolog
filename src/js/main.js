@@ -80,7 +80,7 @@ function closePopUp(){
     });
 };
 
-function openPopUp(){
+function openPopUpMobile(){
     $('.e-general__banners-mobile-massa').click(function(){
         $('.e-general__popup-massa').show();
         $('.e-general__popup-massa').addClass('e-active');
@@ -122,40 +122,6 @@ function openPopUp(){
     });
 };
 
-function closePopUp(){
-    $('.e-general__popup-massa-close').click(function(){
-        $('.e-general__popup-massa').hide();
-    });
-
-    $('.e-general__popup-diet-close').click(function(){
-        $('.e-general__popup-diet').hide();
-    });
-
-    $('.e-general__popup-snack-close').click(function(){
-        $('.e-general__popup-snack').hide();
-    });
-
-    $('.e-general__popup-energy-close').click(function(){
-        $('.e-general__popup-energy').hide();
-    });
-
-    $('.e-general__popup-peso-close').click(function(){
-        $('.e-general__popup-peso').hide();
-    });
-
-    $('.e-general__popup-refeicao-close').click(function(){
-        $('.e-general__popup-refeicao').hide();
-    });
-
-    $('.e-general__popup-bcaa-close').click(function(){
-        $('.e-general__popup-bcaa').hide();
-    });
-
-    $('.e-general__popup-isolate-close').click(function(){
-        $('.e-general__popup-isolate').hide();
-    });
-};
-
 function slickMobile(){
     $('.e-general__banners-mobile').slick({
         infinite: true,
@@ -169,4 +135,5 @@ $(document).ready(function(){
     openPopUp();
     closePopUp();
     slickMobile();
+    openPopUpMobile();
 });
