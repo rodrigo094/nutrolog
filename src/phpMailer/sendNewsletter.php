@@ -39,7 +39,7 @@ $ymsgJorgeAlex = "<div style=\"width:100%;\">
 
 </div>";
 
-$ysendJorgeAlex = sendMail('comercial@nutrolog.com', $ymsgJorgeAlex);
+$ysendJorgeAlex = sendMail('faleconosco@nutrolog.com', $ymsgJorgeAlex);
 
 if ($ysendJorgeAlex != true) {
 	$url = 'http://www.nutrolog.com?sucesso=false';
