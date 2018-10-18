@@ -3,7 +3,7 @@ header('Content-Type: text/html; charset=UTF-8');
 
 $nome = $_POST['Name'];
 $select = $_POST['selected'];
-$cpf = $_POST['cpf'];
+$telefone = $_POST['telefone'];
 $mensagem = $_POST['Mensagem'];
 
 require 'PHPMailerAutoload.php';
@@ -37,7 +37,7 @@ $ymsgJorgeAlex = "<div style=\"width:100%;\">
 
 <p><b>Nome: </b> {$nome}</p>
 <p><b>Cliente ou Revendedor: </b> {$select}</p>
-<p><b>CPF: </b> {$cpf}</p>
+<p><b>Telefone: </b> {$telefone}</p>
 <p><b>Mensagem: </b> {$mensagem}</p>
 
 </div>";
