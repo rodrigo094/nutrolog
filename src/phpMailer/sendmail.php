@@ -4,6 +4,7 @@ header('Content-Type: text/html; charset=UTF-8');
 $nome = $_POST['Name'];
 $select = $_POST['selected'];
 $telefone = $_POST['telefone'];
+$email = $_POST['email'];
 $mensagem = $_POST['Mensagem'];
 
 require 'PHPMailerAutoload.php';
@@ -37,6 +38,7 @@ $ymsgJorgeAlex = "<div style=\"width:100%;\">
 
 <p><b>Nome: </b> {$nome}</p>
 <p><b>Cliente ou Revendedor: </b> {$select}</p>
+<p><b>E-mail: </b> {$email}</p>
 <p><b>Telefone: </b> {$telefone}</p>
 <p><b>Mensagem: </b> {$mensagem}</p>
 

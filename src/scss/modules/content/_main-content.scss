@@ -103,7 +103,7 @@ body {
             &--text {
                 position: absolute;
                 right: 275px;
-                top: 25%;
+                top: 20%;
                 @media (max-width: 768px) {
                     position: relative;
                     background: #f5f5f5;
@@ -130,7 +130,7 @@ body {
                 right: 100px;
                 display: flex;
                 flex-direction: column;
-                top: 35%;
+                top: 30%;
                 @media (max-width: 768px) {
                     position: relative;
                     background: #f5f5f5;
@@ -1241,6 +1241,16 @@ body {
                 font-size: 10px;
                 text-align: center;
                 padding: 0 10px;
+            }
+            &--container {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center; 
+                svg {
+                    width: 20px;
+                    height: 20px;
+                }
             }
         }
     }
