@@ -75,6 +75,7 @@ body {
             display: flex;
             flex-direction: column;
             font-family: 'Oswald', sans-serif;
+            position: relative;
             &--banner {
                 width: 100%;
                 height: auto;
@@ -103,7 +104,7 @@ body {
             &--text {
                 position: absolute;
                 right: 275px;
-                top: 20%;
+                top: 15%;
                 @media (max-width: 768px) {
                     position: relative;
                     background: #f5f5f5;
@@ -182,7 +183,7 @@ body {
                         display: flex;
                         justify-content: center;
                         align-items: flex-end;
-                        text-align: right;
+                        text-align: center;
                         position: relative;
                         left: 50%;
                         margin: 0;
@@ -535,7 +536,7 @@ body {
                             display: block;
                             z-index: 9;
                             padding: 0;
-                            bottom: 100%;
+                            bottom: 0;
                             img {
                                 width: 100%;
                                 height: auto;
@@ -586,7 +587,7 @@ body {
                             display: block;
                             z-index: 9;
                             padding: 0;
-                            bottom: 100%;
+                            bottom: 0;
                             img {
                                 width: 100%;
                                 height: auto;
@@ -637,7 +638,7 @@ body {
                             display: block;
                             z-index: 9;
                             padding: 0;
-                            bottom: 100%;
+                            bottom: 0;
                             img {
                                 width: 100%;
                                 height: auto;
@@ -688,7 +689,7 @@ body {
                             display: block;
                             z-index: 9;
                             padding: 0;
-                            bottom: 100%;
+                            bottom: 0;
                             img {
                                 width: 100%;
                                 height: auto;
