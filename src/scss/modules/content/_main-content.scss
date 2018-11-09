@@ -103,7 +103,7 @@ body {
             }
             &--text {
                 position: absolute;
-                right: 275px;
+                right: 180px;
                 top: 15%;
                 @media (max-width: 768px) {
                     position: relative;
@@ -294,14 +294,14 @@ body {
             flex-wrap: wrap;
             justify-content: center;
             overflow: hidden;
-            height: 440px;
+            height: auto;
             @media (max-width: 768px) {
                 display: none;
             }
             &-top {
                 display: flex;
                 position: relative;
-                height: 210px;
+                height: auto;
                 width: 100%;
                 &--massa {
                     cursor: pointer;
@@ -313,7 +313,7 @@ body {
                         .e-general__banners-top--massa-image {
                             opacity: 0;
                             height: 0;
-                            padding: 0 8px;
+                            padding: 0;
                             overflow: hidden;
                             transition: all .3s ease .3s;
                         }
@@ -346,7 +346,7 @@ body {
                         &-hover {
                             opacity: 0;
                             height: 0;
-                            padding: 0 8px;
+                            padding: 0;
                             overflow: hidden;
                             transition: all .5s ease;
                             @media (max-width: 768px) {
@@ -364,7 +364,7 @@ body {
                         .e-general__banners-top--diet-image {
                             opacity: 0;
                             height: 0;
-                            padding: 0 8px;
+                            padding: d;
                             overflow: hidden;
                             transition: all .3s ease .3s;
                         }
@@ -397,7 +397,7 @@ body {
                         &-hover {
                             opacity: 0;
                             height: 0;
-                            padding: 0 8px;
+                            padding: d;
                             overflow: hidden;
                             transition: all .5s ease;
                             @media (max-width: 768px) {
@@ -415,7 +415,7 @@ body {
                         .e-general__banners-top--snack-image {
                             opacity: 0;
                             height: 0;
-                            padding: 0 8px;
+                            padding: 0;
                             overflow: hidden;
                             transition: all .3s ease .3s;
                         }
@@ -448,7 +448,7 @@ body {
                         &-hover {
                             opacity: 0;
                             height: 0;
-                            padding: 0 8px;
+                            padding: 0;
                             overflow: hidden;
                             transition: all .5s ease;
                             @media (max-width: 768px) {
@@ -466,7 +466,7 @@ body {
                         .e-general__banners-top--energy-image {
                             opacity: 0;
                             height: 0;
-                            padding: 0 8px;
+                            padding: 0;
                             overflow: hidden;
                             transition: all .3s ease .3s;
                         }
@@ -499,7 +499,7 @@ body {
                         &-hover {
                             opacity: 0;
                             height: 0;
-                            padding: 0 8px;
+                            padding: 0;
                             overflow: hidden;
                             transition: all .5s ease;
                             @media (max-width: 768px) {
@@ -513,7 +513,7 @@ body {
                 display: flex;
                 position: relative;
                 top: 0;
-                height: 210px;
+                height: auto;
                 width: 100%;
                 &--peso {
                     cursor: pointer;
@@ -524,7 +524,7 @@ body {
                         .e-general__banners-bottom--peso-image {
                             opacity: 0;
                             height: 0;
-                            padding: 0 8px;
+                            padding: 0;
                             overflow: hidden;
                             transition: all .3s ease .3s;
                         }
@@ -557,7 +557,7 @@ body {
                         &-hover {
                             opacity: 0;
                             height: 0;
-                            padding: 0 8px;
+                            padding: 0;
                             overflow: hidden;
                             transition: all .5s ease;
                             @media (max-width: 768px) {
@@ -575,7 +575,7 @@ body {
                         .e-general__banners-bottom--refeicao-image {
                             opacity: 0;
                             height: 0;
-                            padding: 0 8px;
+                            padding: 0;
                             overflow: hidden;
                             transition: all .3s ease .3s;
                         }
@@ -608,7 +608,7 @@ body {
                         &-hover {
                             opacity: 0;
                             height: 0;
-                            padding: 0 8px;
+                            padding: 0;
                             overflow: hidden;
                             transition: all .5s ease;
                             @media (max-width: 768px) {
@@ -626,7 +626,7 @@ body {
                         .e-general__banners-bottom--bcaa-image {
                             opacity: 0;
                             height: 0;
-                            padding: 0 8px;
+                            padding: 0;
                             overflow: hidden;
                             transition: all .3s ease .3s;
                         }
@@ -659,7 +659,7 @@ body {
                         &-hover {
                             opacity: 0;
                             height: 0;
-                            padding: 0 8px;
+                            padding: 0;
                             overflow: hidden;
                             transition: all .5s ease;
                             @media (max-width: 768px) {
@@ -677,7 +677,7 @@ body {
                         .e-general__banners-bottom--isolate-image {
                             opacity: 0;
                             height: 0;
-                            padding: 0 8px;
+                            padding: 0;
                             overflow: hidden;
                             transition: all .3s ease .3s;
                         }
@@ -710,7 +710,7 @@ body {
                         &-hover {
                             opacity: 0;
                             height: 0;
-                            padding: 0 8px;
+                            padding: 0;
                             overflow: hidden;
                             transition: all .5s ease;
                             @media (max-width: 768px) {
@@ -906,7 +906,7 @@ body {
                     flex-wrap: wrap;
                     &-video1 {
                         width: 50%;
-                        padding-left: 10px;
+                        padding: 0 10px;
                         @media (max-width: 768px) {
                             width: 100%;
                             padding: 10px 0;
@@ -920,7 +920,8 @@ body {
                     }
                     &-text {
                         width: 50%;
-                        margin-left: -5px;
+                        white-space: pre-wrap;
+                        margin-left: 0px;
                         @media (max-width: 768px) {
                             width: 100%;
                             padding: 0 10px;
@@ -928,7 +929,7 @@ body {
                         span {
                             display: flex;
                             flex-wrap: wrap;
-                            width: 200px;
+                            width: 180px;
                             @media (max-width: 768px) {
                                 width: 100%;
                             }
@@ -1053,7 +1054,7 @@ body {
                             }
                             .e-title {
                                 top: 0;
-                                left: 50%;
+                                left: 20%;
                                 font-size: 15px;
                                 padding: 0;
                                 @media (max-width: 768px) {
@@ -1125,7 +1126,7 @@ body {
                             flex-direction: column;
                             .e-title {
                                 top: 0;
-                                right: 140px;
+                                right: 80px;
                                 font-size: 15px;
                                 padding: 0;
                                 @media (max-width: 768px) {
@@ -1155,7 +1156,7 @@ body {
                 align-items: center;
                 &-banner1 {
                     width: 15%;
-                    bottom: -26px;
+                    bottom: -20px;
                     position: relative;
                     @media (max-width: 768px) {
                         display: none;
