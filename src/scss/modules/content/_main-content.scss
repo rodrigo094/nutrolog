@@ -103,7 +103,7 @@ body {
             }
             &--text {
                 position: absolute;
-                right: 180px;
+                right: 280px;
                 top: 15%;
                 @media (max-width: 768px) {
                     position: relative;
@@ -113,8 +113,11 @@ body {
                     right: 0;
                 }
                 @media (min-width: 769px) and (max-width:1024px) {
-                    top: 20%;
+                    top: 8%;
                     right: 100px;
+                }
+                @media (min-width: 1025px) and (max-width: 1200px) {
+                    right: 175px;
                 }
                 span {
                     font-size: 35px;
